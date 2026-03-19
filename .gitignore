@@ -1,15 +1,8 @@
-# Claude Code
-.claude/
+# Dependencies
+node_modules/
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-.venv/
+# Build output
+dist/
 
 # IDE
 .idea/
@@ -27,3 +20,10 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Documentation and specs (not code)
+.specify/
+specs/
+*.md
+!./*/README.md
+!README.md
